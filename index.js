@@ -70,5 +70,5 @@ app.delete("/todos/:id", async (req,res)=>{
 })
 
 app.listen(5000, ()=>{
-    console.log(`Server started on port ${PORT}`)
+    console.log(`Server was started on port ${PORT}`)
 })
